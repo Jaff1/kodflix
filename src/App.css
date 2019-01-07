@@ -26,6 +26,23 @@
   width: 100%;
 }
 
+.TV {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+</style>
+</head>
+<body>
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
