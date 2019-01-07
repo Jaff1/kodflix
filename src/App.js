@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './pulpFiction.jpg';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Welome to kodflix ! <code>src/App.js</code>
+            Welome to kodflix bla bla ! <code>src/App.js</code>
           </p>
           <a
             className="App-link"
