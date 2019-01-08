@@ -11,25 +11,25 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div class="row">
-          <div class="column">
-            <img src={tvShow1} className="TV" alt='' />
+        <div class="container">
+          <div class="item">
+            <img src={tvShow1} alt='' />
           </div>
-          <div class="column">
+          <div class="item">
             <img src={tvShow2} className="TV" alt='' />
           </div>
-          <div class="column">
+          <div class="item">
             <img src={tvShow3} className="TV" alt='' />
           </div>
         </div>
-        <div class="row">
-          <div class="column">
+        <div class="container">
+          <div class="item">
             <img src={tvShow4} className="TV" alt='' />
           </div>
-          <div class="column">
+          <div class="item">
             <img src={tvShow5} className="TV" alt='' />
           </div>
-          <div class="column">
+          <div class="item">
             <img src={tvShow6} className="TV" alt='' />
           </div>
         </div>
