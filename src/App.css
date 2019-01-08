@@ -13,20 +13,22 @@
 .item {
   flex: 1;
   position: relative;
+  overflow: hidden;
 }
 
 .overlay {
-  display: none;
   position: absolute;
-  bottom: 0;
+  bottom: -100px;
   left: 0;
   width: 100%;
   background-color: beige;
   opacity: 0.5;
+  transition: bottom ease 2s;
 }
 
 .item:hover .overlay {
-  display: block
+  bottom: 0;
+  opacity: 0.7;
 }
 
 .TV {
