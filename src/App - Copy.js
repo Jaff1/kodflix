@@ -14,25 +14,25 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         <div class="row">
-          <div align="center" class="column">
-            <h3>Black Mirror</h3>
+          <div class="column">
+            <img src={tvShow1} className="TV"/>
           </div>
-           <div align="center" class="column">
-          <h3>Braking Bad</h3>
+          <div class="column">
+            <img src={tvShow2} className="TV"/>
           </div>
-           <div align="center" class="column">
-            <h3>Death Note</h3>
+          <div class="column">
+            <img src={tvShow3} className="TV"/>
           </div>
         </div>
    <div class="row">
-           <div align="center" class="column">
-          <h3>Game of Thones</h3>
+          <div class="column">
+            <img src={tvShow4} className="TV"/>
           </div>
-           <div align="center" class="column">
-          <h3>The Walking Dead</h3>
+          <div class="column">
+            <img src={tvShow5} className="TV"/>
           </div>
-           <div align="center" class="column">
-          <h3>The Wire</h3>
+          <div class="column">
+            <img src={tvShow6} className="TV"/>
           </div>
         </div>
         </header>
