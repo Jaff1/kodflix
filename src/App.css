@@ -12,6 +12,21 @@
 
 .item {
   flex: 1;
+  position: relative;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: beige;
+  opacity: 0.5;
+}
+
+.item:hover .overlay {
+  display: block
 }
 
 .TV {
