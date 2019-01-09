@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import tvShow1 from './black-mirror-tv-show.jpg';
-import tvShow2 from './BreakingBad.jpg';
-import tvShow3 from './lightdeathnoteposter.jpg';
-import tvShow4 from './GameOfThrones.jpg';
-import tvShow5 from './The-Walking-Dead-Season-3.jpg';
-import tvShow6 from './TheWire.jpg';
+import tVCoverShow1 from './black-mirror-tv-show.jpg';
+import tVCoverShow2 from './BreakingBad.jpg';
+import tVCoverShow3 from './lightdeathnoteposter.jpg';
+import tVCoverShow4 from './GameOfThrones.jpg';
+import tVCoverShow5 from './The-Walking-Dead-Season-3.jpg';
+import tVCoverShow6 from './TheWire.jpg';
 import './App.css';
 
 class App extends Component {
@@ -13,19 +13,19 @@ class App extends Component {
       <div className="App">
         <div class="container">
           <div class="item">
-            <img src={tvShow1}  className="TV" alt='' />
+            <img src={tVCoverShow1}  className="tVCover" alt='' />
             <div className='overlay'>
               <h1>Black Mirror</h1>
             </div>
           </div>
           <div class="item">
-            <img src={tvShow2} className="TV" alt='' />
+            <img src={tVCoverShow2} className="tVCover" alt='' />
             <div className='overlay'>
               <h1>Breaking Bad</h1>
             </div>
           </div>
           <div class="item">
-            <img src={tvShow3} className="TV" alt='' />
+            <img src={tVCoverShow3} className="tVCover" alt='' />
             <div className='overlay'>
               <h1>Death Note</h1>
             </div>
@@ -33,19 +33,19 @@ class App extends Component {
         </div>
         <div class="container">
           <div class="item">
-            <img src={tvShow4} className="TV" alt='' />
+            <img src={tVCoverShow4} className="tVCover" alt='' />
             <div className='overlay'>
               <h1>GOT</h1>
             </div>
           </div>
           <div class="item">
-            <img src={tvShow5} className="TV" alt='' />
+            <img src={tVCoverShow5} className="tVCover" alt='' />
             <div className='overlay'>
               <h1>Walking</h1>
             </div>
           </div>
           <div class="item">
-            <img src={tvShow6} className="TV" alt='' />
+            <img src={tVCoverShow6} className="tVCover" alt='' />
             <div className='overlay'>
               <h1>The Wire</h1>
             </div>
