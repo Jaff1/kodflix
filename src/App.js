@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TVShow from './TVShow';
 import tVCoverShow1 from './black-mirror-tv-show.jpg';
 import tVCoverShow2 from './BreakingBad.jpg';
 import tVCoverShow3 from './lightdeathnoteposter.jpg';
@@ -17,7 +18,7 @@ class App extends Component {
           <TVShow name='Death Note' cover={tVCoverShow3}/>
         </div>
         <div class="container">
-          <TVShow name='Thromes' cover={tVCoverShow4}/>
+          <TVShow name='Thrones' cover={tVCoverShow4}/>
           <TVShow name='Dead Walkers' cover={tVCoverShow5}/>
           <TVShow name='Wire' cover={tVCoverShow6}/>
         </div>
@@ -26,13 +27,5 @@ class App extends Component {
   }
 }
 
-function TVShow (props) {
-return (<div class="item">
-<img src={props.cover}  className="tVCover" alt='' />
-<div className='overlay'>
-  <h1>{props.name}</h1>
-</div>
-</div>)
-}
 
 export default App;
