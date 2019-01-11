@@ -12,48 +12,27 @@ class App extends Component {
     return (
       <div className="App">
         <div class="container">
-          <div class="item">
-            <img src={tVCoverShow1}  className="tVCover" alt='' />
-            <div className='overlay'>
-              <h1>Black Mirror</h1>
-            </div>
-          </div>
-          <div class="item">
-            <img src={tVCoverShow2} className="tVCover" alt='' />
-            <div className='overlay'>
-              <h1>Breaking Bad</h1>
-            </div>
-          </div>
-          <div class="item">
-            <img src={tVCoverShow3} className="tVCover" alt='' />
-            <div className='overlay'>
-              <h1>Death Note</h1>
-            </div>
-          </div>
+          <TVShow name='Black Mirror' cover={tVCoverShow1}/>
+          <TVShow name='Breaking Bad' cover={tVCoverShow2}/>
+          <TVShow name='Death Note' cover={tVCoverShow3}/>
         </div>
         <div class="container">
-          <div class="item">
-            <img src={tVCoverShow4} className="tVCover" alt='' />
-            <div className='overlay'>
-              <h1>GOT</h1>
-            </div>
-          </div>
-          <div class="item">
-            <img src={tVCoverShow5} className="tVCover" alt='' />
-            <div className='overlay'>
-              <h1>Walking</h1>
-            </div>
-          </div>
-          <div class="item">
-            <img src={tVCoverShow6} className="tVCover" alt='' />
-            <div className='overlay'>
-              <h1>The Wire</h1>
-            </div>
-          </div>
+          <TVShow name='Thromes' cover={tVCoverShow4}/>
+          <TVShow name='Dead Walkers' cover={tVCoverShow5}/>
+          <TVShow name='Wire' cover={tVCoverShow6}/>
         </div>
       </div>
     );
   }
+}
+
+function TVShow (props) {
+return (<div class="item">
+<img src={props.cover}  className="tVCover" alt='' />
+<div className='overlay'>
+  <h1>{props.name}</h1>
+</div>
+</div>)
 }
 
 export default App;
