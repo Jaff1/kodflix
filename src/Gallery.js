@@ -12,14 +12,14 @@ export default function Gallery(props) {
     return (
     <div>
         <div class="container">
-            <TVShow name='Black Mirror' cover={tVCoverShow1} />
-            <TVShow name='Breaking Bad' cover={tVCoverShow2} />
-            <TVShow name='Death Note' cover={tVCoverShow3} />
+            <TVShow id = 'blackMirror' name='Black Mirror' cover={tVCoverShow1} />
+            <TVShow id = 'breakingBad' name='Breaking Bad' cover={tVCoverShow2} />
+            <TVShow id = 'deathNote' name='Death Note' cover={tVCoverShow3} />
         </div>
         <div class="container">
-            <TVShow name='Game of Thrones' cover={tVCoverShow4} />
-            <TVShow name='Dead Walkers' cover={tVCoverShow5} />
-            <TVShow name='Wire' cover={tVCoverShow6} />
+            <TVShow id = 'gameofThrones' name='Game of Thrones' cover={tVCoverShow4} />
+            <TVShow id = 'deadWalkers' name='Dead Walkers' cover={tVCoverShow5} />
+            <TVShow id = 'wire' name='Wire' cover={tVCoverShow6} />
         </div>
     </div>
     )
