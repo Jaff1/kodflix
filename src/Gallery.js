@@ -15,8 +15,6 @@ export default function Gallery(props) {
             <TVShow id = 'blackMirror' name='Black Mirror' cover={tVCoverShow1} />
             <TVShow id = 'breakingBad' name='Breaking Bad' cover={tVCoverShow2} />
             <TVShow id = 'deathNote' name='Death Note' cover={tVCoverShow3} />
-        </div>
-        <div class="container">
             <TVShow id = 'gameofThrones' name='Game of Thrones' cover={tVCoverShow4} />
             <TVShow id = 'deadWalkers' name='Dead Walkers' cover={tVCoverShow5} />
             <TVShow id = 'wire' name='Wire' cover={tVCoverShow6} />
