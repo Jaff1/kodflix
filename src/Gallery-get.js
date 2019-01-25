@@ -4,6 +4,8 @@ import deathNote from './lightdeathnoteposter.jpg';
 import gameOfThrones from './GameOfThrones.jpg';
 import walkingDead from './The-Walking-Dead-Season-3.jpg';
 import wire from './TheWire.jpg';
+// Introduce component state #13
+
 
 export default function getGallery() {
     return [
