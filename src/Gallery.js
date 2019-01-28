@@ -5,7 +5,7 @@ import getGallery from './Gallery-get';
 export default function Gallery(props) {
     return (
     <div>
-        <div class="container">
+        <div className="container">
         {
             getGallery().map(tVShow => (
                 <TVShow 
