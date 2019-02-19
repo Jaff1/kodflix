@@ -1,7 +1,8 @@
 
 import React, { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
-import getGallery from './Gallery-get';
+import getGallery from '../Gallery-get';
+import './Details.css';
 
 export default class Details extends Component {
 
@@ -24,8 +25,14 @@ export default class Details extends Component {
             return <Redirect to='/not-found' />;
         } else {
             return (
-                <div>
+                <div className='Details'>
                     <h1>{this.state.show.name}</h1>
+                    <div className='container'>
+                        <div>{this.state.show.details}</div>
+                        <img
+                            src={this.state.show.cover}
+                            alt={this.state.show.name} />
+                    </div>
                     <Link to='/'>Back to home page</Link>
                 </div>
             );
