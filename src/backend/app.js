@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
-const port = 3001
+const port = process.env.PORT || 3001
+const path = require('path');
 
 // Backend Server provides: id, title, synopsis
 // Frontend expects id name details
@@ -25,5 +26,10 @@ app.get('/rest/shows', (req, res) => res.send([
     title: 'Wire', 
     synopsis:'Set in Baltimore, this show centers around the city\'s inner-city drug scene. It starts as mid-level drug dealer, D\'Angelo Barksdale beats a murder rap. After a conversation with a judge, Det. James McNulty has been assigned to lead a joint homicide and narcotics team, in order to bring down drug kingpin Avon Barksdale.' }
 ]))
+
+app.use(express.static(path.join(__dirname, '../../build')));
+app.get('*', function (req, res) {
+    res.sendFile(path.join(__dirname, '<path-to-build-folder>', 'index.html'));
+});
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
