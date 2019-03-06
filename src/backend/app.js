@@ -1,7 +1,7 @@
 const express = require('express')
+const path = require('path');
 const app = express()
 const port = process.env.PORT || 3001
-const path = require('path');
 
 // Backend Server provides: id, title, synopsis
 // Frontend expects id name details
