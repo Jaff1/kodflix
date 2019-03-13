@@ -6,7 +6,7 @@ export default function TVShow(props) {
         <Link to={`/${props.id}`} className="item">
             <img src={props.cover} className="tVCover" alt='' />
             <div className='overlay'>
-                <h1>{props.name}</h1>
+                <h1>{props.title}</h1>
             </div>
         </Link>)
 }
