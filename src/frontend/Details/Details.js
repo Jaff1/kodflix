@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import getGallery from '../Gallery-get';
+
 import './Details.css';
 
 export default class Details extends Component {
