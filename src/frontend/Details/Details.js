@@ -28,9 +28,12 @@ export default class Details extends Component {
             return (
                 <div className='Details'>
                     <h1>{this.state.show.name}</h1>
-                    <div className='container'>
-                        <div>{this.state.show.details}</div>
+                    <div className='content'>
+                        <div className='text'>
+                            {this.state.show.details}
+                        </div>
                         <img
+                            className='image'
                             src={this.state.show.cover}
                             alt={this.state.show.name} />
                     </div>
