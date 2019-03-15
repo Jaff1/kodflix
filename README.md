@@ -42,7 +42,7 @@ To set up the development environment and starts a server, as well as hot module
 
 ### `npm run start-backend`
 
-To start front and backend server.
+Runs nodemon to start the backend server - i.e. src/backend/App.js
 
 ### `node src/backend/app.js`
 
@@ -86,10 +86,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 -> changes will be published
 You can trigger both commands from Visual Studio (`... -> Push To...`) 
-
-### `npm run run-backend`
-
-Runs nodemon to start the backend server - i.e. src/backend/App.js
 
 ## Learn More
 
