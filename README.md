@@ -83,6 +83,14 @@ starts the back-end (usedfull for dev, but superceeded by:
 
 Runs nodemon to start the backend server - i.e. src/backend/App.js
 
+### `npm run start-frontend`
+
+To set up the development environment and starts a server, as well as hot module reloading
+
+### `npm run start-dev`
+
+To start front and backend server.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
