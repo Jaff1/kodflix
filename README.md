@@ -36,11 +36,20 @@ The page will 'HOT'-reload if you make edits (and save them).<br>
 
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm run start-frontend`
 
-Launches the test runner in the interactive watch mode.<br>
+To set up the development environment and starts a server, as well as hot module reloading
 
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `npm run start-backend`
+
+To start front and backend server.
+
+### `node src/backend/app.js`
+
+starts the back-end (usedfull for dev, but superceeded by:
+
+`npm start-backend` and
+`npm start` which utilise nodemon to hot-reload the server on changes
 
 ### `npm run build`
 
@@ -53,6 +62,12 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br>
+
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run eject`
 
@@ -72,24 +87,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 -> changes will be published
 You can trigger both commands from Visual Studio (`... -> Push To...`) 
 
-### `node src/backend/app.js`
-
-starts the back-end (usedfull for dev, but superceeded by:
-
-`npm start-backend` and
-`npm start` which utilise nodemon to hot-reload the server on changes
-
 ### `npm run run-backend`
 
 Runs nodemon to start the backend server - i.e. src/backend/App.js
-
-### `npm run start-frontend`
-
-To set up the development environment and starts a server, as well as hot module reloading
-
-### `npm run start-dev`
-
-To start front and backend server.
 
 ## Learn More
 
