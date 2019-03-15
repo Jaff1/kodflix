@@ -2,7 +2,7 @@
 
 A sample responsive PWA ([Progressive Web App](https://youtu.be/m-sCdS0sQO8)) that aims to excercise some capability with:
 
-1. . **JavaScript** (JS / ECMAScript, v. 2018) - A highlevel interpreted weakly typed programming language, that is built into all browsers.
+1. **JavaScript** (JS / ECMAScript, v. 2018) - A highlevel interpreted weakly typed programming language, that is built into all browsers.
 
 2. Hypertext Markup Language (**HTML**, v. 5.2) is the standard markup language for creating web pages and web applications.
 
