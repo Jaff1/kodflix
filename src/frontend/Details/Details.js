@@ -30,7 +30,7 @@ export default class Details extends Component {
                     <h1>{this.state.show.name}</h1>
                     <div className='content'>
                         <div className='text'>
-                            {this.state.show.details}
+                            {this.state.show.synopsis}
                         </div>
                         <img
                             className='image'

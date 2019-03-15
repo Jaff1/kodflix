@@ -4,7 +4,7 @@ const app = express()
 const port = process.env.PORT || 3001
 
 // Backend Server provides: id, title, synopsis
-// Frontend expects id name details
+// Frontend expects id name synopsis
 
 app.get('/rest/shows', (req, res) => res.send([
     { id: 'black-mirror',
