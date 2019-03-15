@@ -1,4 +1,4 @@
-## JafFlix - It's Jaff's sapple React App
+## JafFlix - It's Jaff's sample React App
 
 A sample responsive PWA ([Progressive Web App](https://youtu.be/m-sCdS0sQO8)) that aims to excercise some capability with:
 
