@@ -16,7 +16,7 @@ A sample responsive PWA ([Progressive Web App](https://youtu.be/m-sCdS0sQO8)) th
 
 7. **npm** (npm-scripts, v ) - npm (short for Node.js package manager) is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched via the npm website.
 
-8. **npm-run-al**l (v. 1.1.5) - a Command Line Interface that allows npm-scripts to be run in parallel or sequentially.
+8. **npm-run-all** (v. 1.1.5) - a Command Line Interface (CLI) that allows npm-scripts to be run in parallel or sequentially: provides `npm-run-all`, `run-s`, and `run-p` - to run npm-scripts', in parallel or sequentially.
 
 9. **Express.js** (v. 4.16.4), or simply Express, is a web application framework for Node.js designed for building web applications and APIs.
 
@@ -26,30 +26,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start` or `npm start`
+
+To run build then start backend/server.
+
+Changed as party of task #23 though not explicitly stated as required.
+
+### `npm run start-backend`
+
+Runs nodemon to start the backend/server - i.e. src/backend/App.js
+
+### `npm run start-dev`
+
+Runs frontend and nodemon to start the backend/server - i.e. src/backend/App.js in parallel.
+
+### `npm run start-frontend` 
 
 Runs the app in the development mode.<br>
-
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will 'HOT'-reload if you make edits (and save them).<br>
 
 You will also see any lint errors in the console.
-
-### `npm run start-frontend`
-
-To set up the development environment and starts a server, as well as hot module reloading
-
-### `npm run start-backend`
-
-Runs nodemon to start the backend server - i.e. src/backend/App.js
-
-### `node src/backend/app.js`
-
-starts the back-end (usedfull for dev, but superceeded by:
-
-`npm start-backend` and
-`npm start` which utilise nodemon to hot-reload the server on changes
 
 ### `npm run build`
 
@@ -63,7 +61,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm test`
+### `npm test` or `npm run test`
 
 Launches the test runner in the interactive watch mode.<br>
 
@@ -78,6 +76,8 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Common Code Control Commands
 
 ### `git push origin master`
 
