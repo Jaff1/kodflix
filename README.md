@@ -79,11 +79,9 @@ starts the back-end (usedfull for dev, but superceeded by:
 `npm start-backend` and
 `npm start` which utilise nodemon to hot-reload the server on changes
 
-
-
 ### `npm run run-backend`
 
-Runs nodemon on for the backend - i.e. src/backend/App.js
+Runs nodemon to start the backend server - i.e. src/backend/App.js
 
 ## Learn More
 
