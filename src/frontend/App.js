@@ -7,19 +7,19 @@ import NotFound from './NotFound';
 import './App.css';
 
 class App extends Component {
-  render() {
-    return (
-      <Router>
-        <div className="App">
-          <Switch>
-            <Route exact path='/' component={Gallery} />
-            <Route exact path='/not-found' component={NotFound} />
-            <Route exact path='/:showId' component={Details} />
-          </Switch>
-        </div>
-      </Router>
-    );
-  }
+	render() {
+		return (
+			<Router>
+				<div className="App">
+					<Switch>
+						<Route exact path='/' component={Gallery} />
+						<Route exact path='/not-found' component={NotFound} />
+						<Route exact path='/:showId' component={Details} />
+					</Switch>
+				</div>
+			</Router>
+		);
+	}
 }
 
 
