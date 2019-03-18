@@ -86,6 +86,23 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 -> changes will be published
 You can trigger both commands from Visual Studio (`... -> Push To...`) 
+q
+### `git diff`
+
+-> Show unstaged changes between your index and working directory.
+
+### `git diff HEAD`
+
+-> Show difference between working directory and last commit.
+
+### `git add <directory>`
+
+-> Stage all changes in <directory> for the next commit.
+Replace <directory> with a <file> to change a specific file.
+
+### `git commit -m "<message>"`
+
+-> Commit the staged snapshot, but instead of launching a text editor, use <message> as the commit message.
 
 ## Learn More
 
