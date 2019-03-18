@@ -29,11 +29,9 @@ export default class Gallery extends Component {
 	}
 
 	componentDidMount() {
-		setTimeout(() => {
-			this.setState({
-				loadingMessage: 'Loading JafFlix show data man'
-			});
-		}, 3000);
+		fetch('/rest/shows')
+			.then(response => response.json())
+			.then(shows => this.setState({ shows }));
 	}
 
 	render() {

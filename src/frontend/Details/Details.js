@@ -15,10 +15,13 @@ export default class Details extends Component {
 	}
 
 	componentDidMount() {
-		let showId = this.props.match.params.showId;
-		let show = getGallery()
-			.find((show) => show.id === showId);
-		this.setState({ show });
+		fetch('/rest/shows')
+			.then(response => response.json())
+			.then(shows => {
+				let showId = this.props.match.params.showId;
+				let show = shows.find(show => show.id === showId);
+				this.setState({ show });
+			});
 	}
 
 	render() {

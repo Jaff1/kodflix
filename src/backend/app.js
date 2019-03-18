@@ -10,7 +10,7 @@ app.get('/rest/shows', (req, res) => res.send([
 	{
 		id: 'black-mirror',
 		title: 'Black Mirror',
-		synopsis: 'An anthology series exploring a twisted, high-tech world where humanity\'s greatest innovations and darkest instincts collide.'
+		synopsis: 'An antology series exploring a twisted, high-tech world where humanity\'s greatest innovations and darkest instincts collide.'
 	},
 	{
 		id: 'breakingBad',
