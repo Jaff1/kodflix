@@ -4,10 +4,26 @@ import getGallery from './Gallery-get';
 
 export default class Gallery extends Component {
 
+	constructor() {
+		super();
+		this.state = {
+			loadingMessage: 'Loading JafFlix show data dudes'
+		};
+	}
+
+	componentDidMount() {
+		setTimeout(() => {
+			this.setState({
+				loadingMessage: 'Loading JafFlix show data man'
+			});
+		}, 3000);
+	}
+
 	render() {
 		return (
 			<div>
 				<div className="container">
+					<h1>{this.state.loadingMessage}</h1>
 					{
 						getGallery().map(tVShow => (
 							<TVShow
