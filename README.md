@@ -30,19 +30,19 @@ In the project directory, you can run:
 
 To run build then start backend/server.
 
-Changed as party of task #23 though not explicitly stated as required.
+Changed as part of task #23 though not explicitly stated as required.
 
 ### `npm run start-backend`
 
-Runs nodemon to start the backend/server - i.e. src/backend/App.js
+Runs nodemon to start (only) the backend/server - i.e. src/backend/App.js
 
 ### `npm run start-dev`
 
-Runs frontend and nodemon to start the backend/server - i.e. src/backend/App.js in parallel.
+Runs frontend, and nodemon to start the backend/server - i.e. src/backend/App.js in parallel.
 
 ### `npm run start-frontend` 
 
-Runs the app in the development mode.<br>
+Runs the app frontend (only) in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will 'HOT'-reload if you make edits (and save them).<br>
