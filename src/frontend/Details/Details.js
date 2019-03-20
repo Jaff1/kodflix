@@ -30,7 +30,7 @@ export default class Details extends Component {
 		} else {
 			return (
 				<div className='Details'>
-					<h1>{this.state.show.name}</h1>
+					<h1>{this.state.show.title}</h1>
 					<div className='content'>
 						<div className='text'>
 							{this.state.show.synopsis}
@@ -38,7 +38,7 @@ export default class Details extends Component {
 						<img
 							className='image'
 							src={require(`..\/..\/common/images/${this.state.show.coverImg}.jpg`)}
-							alt={this.state.show.name} />
+							alt={this.state.show.title} />
 					</div>
 					<Link to='/'>Back to home page</Link>
 				</div>
