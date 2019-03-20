@@ -1,4 +1,4 @@
-## JafFlix - It's Jaff's sample React App
+# Jafflix - It's Jaff's sample React App
 
 A sample responsive PWA ([Progressive Web App](https://youtu.be/m-sCdS0sQO8)) that aims to excercise some capability with:
 
@@ -12,9 +12,9 @@ A sample responsive PWA ([Progressive Web App](https://youtu.be/m-sCdS0sQO8)) th
 
 5. **Node.js** (v. 10.14.1) is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser
 
-6. **nodemon** (v. 1.18.10) - a utility that eases managing server code changes, and re-starts.
+6. **npm** (npm-scripts, v ) - npm (short for Node.js package manager) is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched via the npm website.
 
-7. **npm** (npm-scripts, v ) - npm (short for Node.js package manager) is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched via the npm website.
+7. **nodemon** (v. 1.18.10) - a utility that eases managing server code changes, and re-starts.
 
 8. **npm-run-all** (v. 1.1.5) - a Command Line Interface (CLI) that allows npm-scripts to be run in parallel or sequentially: provides `npm-run-all`, `run-s`, and `run-p` - to run npm-scripts', in parallel or sequentially.
 
@@ -79,30 +79,33 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Common Code Control Commands
 
-### `git push origin master`
+### `git remote -v`
+->  displays the URLs that Git has stored for the shortname to be used when reading and writing to that remote.
 
- -> changes will be persisted on your GitHub account
-### `git push heroku master` 
+### `git status`
+->  displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
 
--> changes will be published
-You can trigger both commands from Visual Studio (`... -> Push To...`) 
-q
+### `git stash`
+->  to record the current state of the working directory and the index, but want to go back to a clean working directory. The command saves your local modifications away and reverts the working directory to match the HEAD commit.
+
+### `git add <pathspec>`
+-> Stage all changes in <pathspec> for the next commit. Fileglobs (e.g. *.c) can be given to add all matching files.
+
 ### `git diff`
-
 -> Show unstaged changes between your index and working directory.
 
 ### `git diff HEAD`
-
 -> Show difference between working directory and last commit.
 
-### `git add <directory>`
-
--> Stage all changes in <directory> for the next commit.
-Replace <directory> with a <file> to change a specific file.
-
 ### `git commit -m "<message>"`
-
 -> Commit the staged snapshot, but instead of launching a text editor, use <message> as the commit message.
+
+### `git push origin master`
+-> changes will be persisted on your GitHub account
+
+### `git push heroku master` 
+-> changes will be published
+You can trigger both commands from Visual Studio (`... -> Push To...`) 
 
 ## Learn More
 
