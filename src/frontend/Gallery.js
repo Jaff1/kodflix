@@ -1,6 +1,5 @@
 import React from 'react';
 import TVShow from './TVShow';
-import getGallery from './Gallery-get';
 
 export default class Gallery extends React.Component {
 

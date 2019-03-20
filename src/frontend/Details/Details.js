@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
-import getGallery from '../Gallery-get';
 
 import './Details.css';
 
@@ -37,7 +36,7 @@ export default class Details extends Component {
 						</div>
 						<img
 							className='image'
-							src={require(`..\/..\/common/images/${this.state.show.coverImg}.jpg`)}
+							src={require(`../../common/images/${this.state.show.coverImg}.jpg`)}
 							alt={this.state.show.title} />
 					</div>
 					<Link to='/'>Back to home page</Link>
