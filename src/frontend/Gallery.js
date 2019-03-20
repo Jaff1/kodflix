@@ -11,7 +11,7 @@ export default function Gallery(props) {
 						<TVShow
 							key={tVShow.id}
 							id={tVShow.id}
-							title={tVShow.name}
+							title={tVShow.title}
 							cover={tVShow.cover} />
 					))
 				}
