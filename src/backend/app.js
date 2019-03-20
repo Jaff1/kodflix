@@ -45,9 +45,16 @@ app.get('/rest/shows', (req, res) => res.send([
 	}
 ]));
 
+//
+// Serve static files using Express from the build directory ( the root )
+//
 app.use(express.static(path.join(__dirname, '../../build')));
+
+//
+// Route the index.html file (the entry point of our app) on the build folder by default
+//
 app.get('*', function (req, res) {
-	res.sendFile(path.join(__dirname, '<path-to-build-folder>', 'index.html'));
+	res.sendFile(path.join(__dirname, '../../build', 'index.html'));
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
