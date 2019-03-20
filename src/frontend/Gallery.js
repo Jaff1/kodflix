@@ -25,7 +25,7 @@ export default class Gallery extends React.Component {
 								key={tVShow.id}
 								id={tVShow.id}
 								title={tVShow.title}
-								cover={tVShow.cover} />
+								coverImg={tVShow.coverImg} />
 						))
 					}
 				</div>
