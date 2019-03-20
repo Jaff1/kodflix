@@ -37,7 +37,7 @@ export default class Details extends Component {
 						</div>
 						<img
 							className='image'
-							src={this.state.show.coverImg}
+							src={require(`..\/..\/common/images/${this.state.show.coverImg}.jpg`)}
 							alt={this.state.show.name} />
 					</div>
 					<Link to='/'>Back to home page</Link>
