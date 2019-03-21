@@ -24,9 +24,10 @@ export default class Details extends Component {
 	}
 
 	render() {
+		let { id, title, coverImg } = this.props;
 		if (this.state.show === undefined) {
 			return <Redirect to='/not-found' />;
-		} else {
+		} else if (this.state.show.id) {
 			return (
 				<div className='Details'>
 					<h1>{this.state.show.title}</h1>
@@ -40,6 +41,13 @@ export default class Details extends Component {
 							alt={this.state.show.title} />
 					</div>
 					<Link to='/'>Back to home page</Link>
+				</div>
+			);
+		}
+		else {
+			return (
+				<div className='Details'>
+					<h1>Loading show {this.props.match.params.showId}... I promise....</h1>
 				</div>
 			);
 		}
