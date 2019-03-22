@@ -104,8 +104,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 -> changes will be persisted on your GitHub account
 
 ### `git push heroku master` 
--> changes will be published
-You can trigger both commands from Visual Studio (`... -> Push To...`) 
+-> changes will be published. You can trigger both commands from Visual Studio too (`... -> Push To...`) 
+
+### `git checkout -b <branch name>` 
+-> causes a new branch to be created as if git-branch[1] were called and then checked out. 
+
+### `git merge <branch name>` 
+-> Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch.
 
 ## Learn More
 
