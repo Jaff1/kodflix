@@ -24,7 +24,7 @@ export default class Details extends Component {
 	}
 
 	render() {
-		let { id, title, coverImg } = this.props;
+//		let { id, title, coverImg } = this.props;
 		if (this.state.show === undefined) {
 			return <Redirect to='/not-found' />;
 		} else if (this.state.show.id) {
