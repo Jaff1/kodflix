@@ -1,14 +1,6 @@
 .Details .content {
     /* Netflix Color Palette https://www.color-hex.com/color-palette/22942 */
-    /* background-color: #db0000;
-    background-color: #000000;
-    background-color: #ffffff;
-    background-color: #564d4d; */
     background-color: #831010;
-    /* Other colors */
-    /* background-color: #282C34;
-    background-color: yellow; */
-    color: #9DA5B4;
     display: flex;
 }
 
@@ -20,6 +12,6 @@
 @media only screen and (max-width: 600px) {
     .Details .content {
         flex-direction: column;
-        background-color: lightblue;
+        /* background-color: lightblue; */
     }
   }
